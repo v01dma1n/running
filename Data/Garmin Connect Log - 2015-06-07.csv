@@ -1,6 +1,4 @@
-Favorite,Activity Name,Activity Type,Course,Start,Time,Distance,Elevation Gain,Avg Speed (Avg Pace),Max Speed (Best Pace),Avg HR,Max HR,Calories,Calc Avg Speed,"
-Heartbits
-(Time X AvgHR)",Calories/ Heart Beat,Calories / 10min,,,,Date remove week day,Date format
+Favorite,Activity Name,Activity Type,Course,Start,Time,Distance,Elevation Gain,Avg Speed (Avg Pace),Max Speed (Best Pace),Avg HR,Max HR,Calories,Calc Avg Speed,"Heartbits(Time X AvgHR)",Calories/ HeartBeat,Calories / 10min,ColA,ColB,ColC,Date remove week day,Date format
 FALSE,3.8mi Easy,Running,--,3/19/2015 6:15:00,0:43:01,3.76,3,11:26,7:26,161,179,536,11.44,"6,925.68",0.0774,125,Nimbus 16,--,--,#VALUE!,#VALUE!
 FALSE,3.5mi Easy,Running,--,3/15/2015 8:01:00,0:39:22,3.46,13,11:22,8:38,164,175,490,11.38,"6,456.13",0.0759,124,Nimbus 16,--,--,#VALUE!,#VALUE!
 FALSE,2.8mi easy with office team,Running,--,3/11/2015 17:38:00,0:32:14,2.79,8,11:33,6:07,161,177,401,11.55,"5,189.57",0.0773,124,Nimbus 16,--,--,#VALUE!,#VALUE!
