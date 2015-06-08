@@ -1,7 +1,11 @@
+# Hourly weather load script from NOAA
+# Helper script for retrieving hourly weather data.
+# This script will not execute automatically since it requires some external operations.
+
 
 setwd("D:\\Personal\\Projects\\R\\Running")
 
-# determine USAF adn WBAN id of Somerset airport
+# 1. Determine USAF adn WBAN id of Somerset airport
 file <- "ftp://ftp.ncdc.noaa.gov/pub/data/noaa/isd-history.csv"
 repeat {
   try(download.file(file, "data/isd-history.csv", quiet = TRUE))
@@ -21,17 +25,17 @@ st[st$ICAO == "KSMQ",]
 
 #system("gunzip -r data/raw", intern = FALSE, ignore.stderr = TRUE)
 
-# download files from ftp://ftp.ncdc.noaa.gov/pub/data/noaa/ to .tmp folder
+# 2. Download files from ftp://ftp.ncdc.noaa.gov/pub/data/noaa/ to .tmp folder
 # ftp://ftp.ncdc.noaa.gov/pub/data/noaa/2015/722247-54785-2015.gz
 # ftp://ftp.ncdc.noaa.gov/pub/data/noaa/2014/722247-54785-2014.gz
 # ftp://ftp.ncdc.noaa.gov/pub/data/noaa/2013/722247-54785-2013.gz
 
-# uncompress the data to data/raw/ folder
+# 3. Uncompress the data to data/raw/ folder
 # 722247-54785-2015
 # 722247-54785-2014
 # 722247-54785-2013
 
-# process the files one a time and merge
+# 4. Process the files one a time and merge
 files <- list.files("data/raw/")
 
 column.widths <- c(4, 6, 5, 4, 2, 2, 2, 2, 1, 6,7, 5, 5, 5, 4, 3, 1, 1, 4, 1, 5, 1, 1, 1, 6, 1, 1, 1, 5, 1, 5, 1, 5, 1)
@@ -52,5 +56,7 @@ for (i in 1:length(files)) {
     allweather <- rbind(allweather, data)
 } # for
 
-# save the output of hourly weather data
+# 5. Save the output of hourly weather data
 write.csv(allweather, file = paste("data/csv/", "WeatherData.csv", sep = ","), row.names = TRUE)
+
+#
