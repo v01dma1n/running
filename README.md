@@ -22,3 +22,17 @@ Estimated temperature at finish - Slower than goal pace - 8 min mile becomes...
 * Above 85 degrees - Forget it... run for fun
 Note: This chart is based upon my own experience in the heat and talking to other runners. It has no scientific verification.
 
+#Challenges
+##Running log does not have temperature data
+The the temperature data is not provided by Garmin Connect website.  In order to corelate running performance with air temperature, hourly climate data must be retrieved.  One available source is NOAA isd-history (ftp://ftp.ncdc.noaa.gov/pub/data/noaa/isd-history.csv).  
+The temperature data is available in hourly intervals.
+##Factoring training level
+The number of runs per week varied over time.  I assume, that with more runs my performance got better and could affect the analysis.  I need to factor for performance increase due to traing leve.
+#Assumptions
+* The analysis will be performed on run by run basis.
+* Only single temperature point will be associated with a run.
+* For temperature retrieval, mid-run time mark will be used.
+* The temperature will be retrieved for weather station located 15 miles from usual locaction of the runs.
+* From the pool of all runs, only training, 3-4 mile runs will be considered.  Races and long runs will be excluded.
+* 
+
