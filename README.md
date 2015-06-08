@@ -41,4 +41,4 @@ The number of runs per week varied over time.  I assume, that with more runs my 
 * From the pool of all runs, only training, 3-4 mile runs will be considered.  Races and long runs will be excluded.
 * Performance increase due to training level must be factored.
 
-
+<change>
