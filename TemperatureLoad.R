@@ -1,3 +1,6 @@
+
+TemperatureLoad <- function()
+{
 setwd("D:\\Personal\\Projects\\R\\Running")
 
 file <- "ftp://ftp.ncdc.noaa.gov/pub/data/noaa/isd-history.csv"
@@ -48,5 +51,5 @@ for (i in 1:length(files)) {
   else
     allweather <- rbind(allweather, data)
 } # for
-
 write.csv(allweather, file = paste("data/csv/", "WeatherData.csv", sep = ","), row.names = TRUE)
+}
