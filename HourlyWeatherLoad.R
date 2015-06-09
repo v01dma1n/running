@@ -57,6 +57,6 @@ for (i in 1:length(files)) {
 } # for
 
 # 5. Save the output of hourly weather data
-write.csv(allweather, file = paste("data/csv/", "WeatherData.csv", sep = ","), row.names = TRUE)
+write.csv(allweather, file = paste("data/csv/", "WeatherData.csv", sep = ""), row.names = TRUE)
 
-#
+# 
