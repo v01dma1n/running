@@ -1,13 +1,14 @@
 Impact of air temperature on runner's performance
 =================================================
 
-#Question
+#Study Design
+##Question
 I am a casual runner and love data.  Having Garmin GPS watch allowed me to collect a lot of data about my runs.  
 Since I am on a heavy side, my body does not respond well to higher temperatures. 
 My 'God of Running', Jeff Galloway discusses pace adjustments for running races (see Resources below).  
 **How does my running data reflect performance decrease with raisng temperature?**
 
-##Account for Heat by Jeff Galloway
+###Account for Heat by Jeff Galloway
 http://www.fleetfeetwinston-salem.com/training/resources/heat-pace  
 _The hot and sticky days of summer are here. Make sure that you are making some adjustments in your running. Most runners begin to slow down at 55 degrees and start suffering at 65 degrees. Of course, the body can adapt to heat stress and push the threshold up a bit, but you usually can't run as fast on a 75 degee day as on a 45 degree one. High humidity is also a major problem. It's like a wet blanket; it doesn't allow much evaporation or perspiration and your body heat builds up.
 If you try to run too hard in hot or humid conditions you'll hit "the wall" sooner than expected. Trying to maintain a goal pace in heat is like going out too fast early in the race. Temperatures generally increase hour by hour; therefore you must adjust your pace for the temperature expected at the end of the race._  
@@ -34,7 +35,7 @@ The temperature data is available in hourly intervals.
 ##Factoring training level
 The number of runs per week varied over time.  I assume, that with more runs my performance got better and could affect the analysis.  I need to factor for performance increase due to traing leve.  
 
-#Data description
+#Code Book
 
 ##Run history from Garmin Connect
 ..  
