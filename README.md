@@ -1,14 +1,14 @@
 Impact of air temperature on runner's performance
 =================================================
 
-#Study Design
-##Question
+
+#Question
 I am a casual runner and love data.  Having Garmin GPS watch allowed me to collect a lot of data about my runs.  
 Since I am on a heavy side, my body does not respond well to higher temperatures. 
 My 'God of Running', Jeff Galloway discusses pace adjustments for running races (see Resources below).  
 **How does my running data reflect performance decrease with raisng temperature?**
 
-###Account for Heat by Jeff Galloway
+##Account for Heat by Jeff Galloway
 http://www.fleetfeetwinston-salem.com/training/resources/heat-pace  
 _The hot and sticky days of summer are here. Make sure that you are making some adjustments in your running. Most runners begin to slow down at 55 degrees and start suffering at 65 degrees. Of course, the body can adapt to heat stress and push the threshold up a bit, but you usually can't run as fast on a 75 degee day as on a 45 degree one. High humidity is also a major problem. It's like a wet blanket; it doesn't allow much evaporation or perspiration and your body heat builds up.
 If you try to run too hard in hot or humid conditions you'll hit "the wall" sooner than expected. Trying to maintain a goal pace in heat is like going out too fast early in the race. Temperatures generally increase hour by hour; therefore you must adjust your pace for the temperature expected at the end of the race._  
@@ -22,6 +22,16 @@ Estimated temperature at finish - Slower than goal pace - 8 min mile becomes...
 * 80-85 degrees - 20% - 9:35  
 * Above 85 degrees - Forget it... run for fun  
 Note: This chart is based upon my own experience in the heat and talking to other runners. It has no scientific verification.  
+#Study Design
+##Assumptions
+* The analysis will be performed on run by run basis.  
+* Only single temperature point will be associated with a run.  
+* For temperature retrieval, end time will be used (as in Galloway's data).  
+* The temperature will be retrieved for weather station located 15 miles from usual locaction of the runs.  
+* From the pool of all runs, only training, 3-4 mile runs will be considered.  Races and long runs will be excluded.  
+* The runs will be selected only from ones on realively flat course.  Garmin Elevation.Gain < 100ft
+* Performance increase due to training level must be factored.  
+
 
 #Challenges
 
@@ -42,15 +52,6 @@ The number of runs per week varied over time.  I assume, that with more runs my 
 
 ##Hourly temperature from NOAA
 ..   
-
-#Assumptions
-* The analysis will be performed on run by run basis.  
-* Only single temperature point will be associated with a run.  
-* For temperature retrieval, end time will be used (as in Galloway's data).  
-* The temperature will be retrieved for weather station located 15 miles from usual locaction of the runs.  
-* From the pool of all runs, only training, 3-4 mile runs will be considered.  Races and long runs will be excluded.  
-* The runs will be selected only from ones on realively flat course.  Garmin Elevation.Gain < 100ft
-* Performance increase due to training level must be factored.  
 
 
 #Open questions
