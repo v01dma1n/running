@@ -23,7 +23,9 @@ Estimated temperature at finish - Slower than goal pace - 8 min mile becomes...
 * Above 85 degrees - Forget it... run for fun  
 Note: This chart is based upon my own experience in the heat and talking to other runners. It has no scientific verification.  
 #Study Design
+
 ##Assumptions
+
 * The analysis will be performed on run by run basis.  
 * Only single temperature point will be associated with a run.  
 * For temperature retrieval, end time will be used (as in Galloway's data).  
